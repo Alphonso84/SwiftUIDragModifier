@@ -10,7 +10,7 @@ import SwiftUI
 struct CustomDrag: ViewModifier {
     @State var objectOffset:CGSize = .zero
     
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         //var offSetValue: CGSize = objectOffset
         content
             .offset(objectOffset)
