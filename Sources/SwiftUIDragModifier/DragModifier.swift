@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomDrag: ViewModifier {
+public struct CustomDrag: ViewModifier {
     @State var objectOffset:CGSize = .zero
     
     public func body(content: Content) -> some View {
